@@ -1,0 +1,58 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+env/
+.venv/
+.env/
+myenv/
+# ===========================
+# PyTorch / ML Artifacts
+# ===========================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/
+lightning_logs/
+
+# ===========================
+# Dataset (auto-downloaded)
+# ===========================
+data/
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Logs
+# ===========================
+*.log
